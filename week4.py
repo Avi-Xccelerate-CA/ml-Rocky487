@@ -148,7 +148,7 @@ def makeModel():
 
 	# Train the model using the training sets
 	#SOLUTION START(~ 1 line of code)
-	model.fit(X_train. y_train)
+	model.fit(X_train, y_train)
 	#SOLUTION END
 
 	# Make predictions using the testing set
