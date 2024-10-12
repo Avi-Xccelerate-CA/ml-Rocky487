@@ -163,7 +163,7 @@ def makeModel():
 	intercept = model.intercept_
 	mse = mean_squared_error(y_test, y_pred)
 	rmse = math.sqrt(mse)
-	r2score = model.score(X_test, y_test)
+	r2score = model.score(y_test, y_pred)
 	#SOLUTION END
 
 
